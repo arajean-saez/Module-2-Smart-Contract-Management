@@ -1,33 +1,12 @@
-# Smart Contract Management - ETH-AVAX 
+# Starter Next/Hardhat Project
 
-## Overview
-The Metacrafters ATM project is a demonstration of smart contract management utilizing React and Ethereum. This application allows users to interact with a deployed smart contract to deposit and withdraw ETH.
+After cloning the github, you will want to do the following to get the code running on your computer.
 
-## Getting Started
-To run the application, follow these steps:
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
 
-1. Clone the repository to your local machine.
-2. Ensure you have Node.js installed.
-3. Install dependencies by running `npm install`.
-4. Start the development server with `npm start`.
-5. Access the application through your web browser at `http://localhost:3000`.
-
-## Usage
-Upon accessing the application, users are prompted to connect their MetaMask wallet. Once connected, users can view their account information and balance. They can deposit or withdraw ETH using the respective buttons.
-
-## Technologies Used
-- React: Frontend framework for building the user interface.
-- ethers.js: JavaScript library for interacting with the Ethereum blockchain.
-- MetaMask: Ethereum wallet extension for browser-based interaction with Ethereum.
-
-## File Structure
-- `HomePage.js`: Main component file containing the logic and UI for the application.
-- `artifacts/contracts/Assessment.sol/Assessment.json`: ABI file generated from the deployed smart contract.
-- `package.json`: Configuration file for npm dependencies and scripts.
-- `README.md`: Documentation file providing information about the project.
-
-## Contributing
-Contributions are welcome! If you would like to contribute to the project, please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
